@@ -1,0 +1,118 @@
+<html>
+    <style>
+        body
+        {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: brown;
+        }
+        button
+        {
+            background-color: palevioletred;
+            width:10%;
+            color:black;
+            padding: 15px;
+            border:none;
+            cursor:pointer;
+        }
+        form
+        {
+            border: 3px solid beige;
+        }
+        input[type=text],input[type=password],input[type=number],input[type=calendar]
+        {
+            width:100%;
+            margin: 8px 0;
+            padding:12px 20px;
+            display:inline-block;
+            border: 2px solid bisque;
+            box-sizing:border-box;
+        }
+        .container
+        {
+            padding:25px;
+            background-color: antiquewhite;
+        }
+    </style>
+    <body>
+        <h1>REGISTRATION FORM</h1>
+        <form>
+            <h3>
+            <div class="container">
+            Enter Name:<br>
+           <input type="text" name="tbox1" placeholder="Name" size="20" maxlength="20"/><br>
+        Enter Gender:<br>
+            <input type="radio" name="rb1" value="male"/>Male <br>
+            <input type="radio" name="rb1" value="female"/>Female<br>
+            Date of Birth:<br>
+            <input type="calendar" name="tbox2" placeholder="DD/MM/YYYY "/><br>
+            ID Number:<br>
+            <input type="number" name="tbox3" placeholder=" "/><br>
+            Nationality:<br>
+            <input type="text" name="tbox4" placeholder=" "/><br>
+            Religion:<br>
+            <input type="text" name="tbox5" placeholder=" "/><br>
+            Reservation:<br>
+            <select name="Caste">
+                <option>Select</option>
+                <option>OC</option>
+                <option>BC</option>
+                <option>SE</option>
+                <option>ST</option>
+                <option>PH</option>
+            </select><br>
+            Father Name:
+            <input type="text" placeholder="Name" name="tbox6"/><br>
+            Mother Name:
+            <input type="text" placeholder="Name" name="tbox7"/><br>
+            Address:<br>
+            <textarea rows="10" cols="30"></textarea><br>
+            Pincode:<br>
+            <input type="number" name="tbox9" placeholder=" " size="15" maxlength="7"/><br>
+            Email-ID:<br>
+            <input type="text" type="password" name="tbox10" placeholder=" " size="20" maxlength="50"/><br>
+            Enter District:
+        <select name="District">
+            <option>Select</option>
+            <option> VISHAKAPATNAM</option>
+            <option> VIJAYAWADA</option>
+            <option> SRIKAKULAM</option>
+            <option> EAST GODAVARI</option>
+            <option> WEST GODAVARI</option>
+        </select><br>
+        </form>
+        Qualified Exams:<br>
+        <input type="radio" name="rb2" value="10th"/>10th<br>
+        <input type="radio" name="rb2" value="Intermediate"/>Intermediate<br>
+        Year of Passed:<br>
+        <select name="Year">
+            <option> Select</option>
+            <option>2017</option>
+            <option>2018</option>
+            <option>2019</option>
+            <option>2020</option>
+            <option>2021</option>
+            <option>2022</option>
+        </select><br>
+        Percentage:<br>
+        <input type="number" placeholders=" " size="tbox11"/><br>
+        Choose Course:
+        <select name="Courses">
+            <option> Select</option>
+            <option> Windows 8</option>
+            <option> Introduction to Linux</option>
+            <option> English 101</option>
+            <option> Creative writing</option>
+            <option> History</option>
+            <option> Mathematics</option>
+        </select><br>
+        <input type="reset" value="CLEAR ALL FIELDS" name="tbox12"/><br>
+        Insert your Image:<br>
+        <input type="image" src="img_submit.gif" alt="submit" width="48" height="48">    
+        </div>
+        <center><button type="submit">REGISTER</button></center>
+        <div class="Sign in container">
+            <p>Already have an account? <a href="#">Sign in</a></p>
+        </div>
+    </h3>
+    </body>
+</html> 
